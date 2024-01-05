@@ -1,7 +1,8 @@
 repo_name: kalwabed/kalwabed.deno.dev
 report_id: d17a95b208046f39f59ff2df2f1ec041
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T12:45:44+00:00'
+timestamp: '2024-01-05T08:53:54+00:00'
 requested_by: kalwabed
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kalwabed/kalwabed.deno.dev
   detection_source: Repo Metadata
 - name: React
   description: A JavaScript library for building user interfaces
@@ -26,6 +28,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/kalwabed/kalwabed.deno.dev/blob/main/components/Layout.jsx
   detection_source: components/Layout.jsx
   last_updated_by: Kalwabed Rizki
   last_updated_on: 2021-04-03 03:12:03.000000000 Z
@@ -37,4 +40,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kalwabed/kalwabed.deno.dev
   detection_source: Repo Metadata
