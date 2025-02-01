@@ -1,7 +1,7 @@
-import Layout from "../components/Layout.jsx";
-import SuperCenter from "../components/SuperCenter.jsx";
+import Layout from "../components/Layout.tsx";
+import SuperCenter from "../components/SuperCenter.tsx";
 
-const Home = () => {
+export default function Home() {
   return (
     <Layout>
       <SuperCenter>
@@ -10,7 +10,7 @@ const Home = () => {
             <p className="text-3xl md:text-4xl font-bold px-3 md:px-0">
               Hello,{" "}
               <a
-                href="https://kalwabed.xyz"
+                href="https://www.kalwabed.com"
                 className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"
               >
                 Kalwabed
@@ -31,6 +31,4 @@ const Home = () => {
       </SuperCenter>
     </Layout>
   );
-};
-
-export default Home;
+}
