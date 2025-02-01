@@ -1,5 +1,5 @@
-import Layout from "../components/Layout.jsx";
-import SuperCenter from "../components/SuperCenter.jsx";
+import Layout from "../components/Layout.tsx";
+import SuperCenter from "../components/SuperCenter.tsx";
 
 const GreetingsPage = ({ name }) => {
   return (
